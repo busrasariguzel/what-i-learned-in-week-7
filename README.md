@@ -132,7 +132,14 @@ name.endsWith('sra')-  true
 `join()` - for array of strings, joints string in array and they become one string.
 name.join('and) - puts "and" between items and makes it a one string. Joins items with whats inside of the parenthesis. 
 
-`split()`
+`split()` opposite of joint. 
+name.split('e') - splits in whenever it finds 'e'. 
+name.split(' ') - splits every word and makes it an item.
+name.split('') - gives every letter as an item inside of an array.
+
+`reverse` - you can reverse an array but not a string.
+instead:
+name.split('').reverse().join()
 
 
 
